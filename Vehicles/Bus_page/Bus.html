@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Focus</title>
+    <link rel="stylesheet" href="/FreshFocus/Vehicles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" integrity="sha512-rSWTr6dChYCbhpHaT1hg2tf4re2jUxBWTuZbujxKg96+T87KQJriMzBzW5aqcb8jmzBhhNSx4XYGA6/Y+ok1vQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="/FreshFocus/Vehicles/Bus_page/script.js" defer></script>
+</head>
+<body class="app">
+    
+    <header class="header">
+        
+        <div class="Logo">
+            <a href="#" class="logo__a">Fresh<span class="logo__a-focus">Focus</span></a>
+            </div>
+            
+            <a href="/FreshFocus/Vehicles/Car_page/Car.html" class="dd-toggle__a"><button class="dd-toggle">
+                <span class="dd-toggle__text">Vehicles</span>
+            </button></a>
+            
+            <a href="/FreshFocus/Properties/Land_page/Land.html" class="dd-toggle__a"><button class="dd-toggle">
+                <span class="dd-toggle__text">Properties</span>
+            </button></a>
+            
+            <!-- <a href="/FreshFocus/Rent Us/Rent.html" class="dd-toggle__a"><button class="dd-toggle">Rent Us</button></a> -->
+        
+            <button class="dd-toggle__login"><a class="dd-toggle__login" href="/FreshFocus/Login.php">Log In</a></button>
+        
+            <button class="dd-toggle__signup"><a class="dd-toggle__signup" href="/FreshFocus/Signup.php">Sign Up</a></button>    
+    
+    </header>
+
+    <div class="app__container">
+
+        <div class="sidebar">
+            
+            <section class="menu">
+
+                <a href="/FreshFocus/Vehicles/Car_page/Car.html"><button class="menu__button">
+                    <i class="fa fa-car menu__icon"></i>
+                    <span class="menu__text">Car</span>
+                </button></a>
+
+                <a href="/FreshFocus/Vehicles/Van_page/Van.html"><button class="menu__button">
+                    <i class="fa fa-bus menu__icon"></i>
+                    <span class="menu__text">Van</span>           
+                </button></a>
+                
+                <a href="/FreshFocus/Vehicles/Motorcycle_page/Motorcycle.html"><button class="menu__button">
+                    <i class="fa fa-motorcycle menu__icon"></i>
+                    <span class="menu__text">Motorcycle</span>
+                </button></a>
+                
+                <a href="/FreshFocus/Vehicles/Truck_page/Truck.html"><button class="menu__button">
+                    <i class="fa fa-truck menu__icon"></i>
+                    <span class="menu__text">Truck</span>
+                </button></a>
+                
+                <a href="/FreshFocus/Vehicles/Bus_page/Bus.html"><button class="menu__button menu__button--active">
+                    <i class="fa fa-bus menu__icon"></i>
+                    <span class="menu__text">Bus</span>
+                </button></a>
+
+            </section>
+
+        </div>
+        
+        <section class="panel">
+            <div class="paneL__top">
+                <h1 class="first-heading">Car</h1>
+                <i class="fa fa-angle-double-right paneL__collapse-icon"></i>
+            </div>
+
+            <div class="paneL__images" id="imageID">
+                <p class="paneL__img-text" id="image_textID"></p>
+            </div>
+
+        </section>
+
+        <main class="main">
+            <div class="info-bar">
+                <p id="infoID" class="vehicle-name">Mitsubishi Rosa-Fuso 2006</p>
+            </div>
+            <section class="gallery">
+                <div class="img-wrapper">
+                    <img id="preview" src="/FreshFocus/Vehicles/Bus_page/Bus_img/Rosa-fuso.jpg" alt="#" class="gallery-img">
+                </div>    
+            </section>
+
+            <section class="vehicle-info">
+               <p id="Brand" >Brand - Mitsubishi</p>
+               <p id="Model"> Model - Rosa-Fuso</p>
+               <p id="Year"> Year - 2006</p>
+               <p id="Price"> Price - 4000$</p>
+            </section>
+
+
+
+        </main>
+    </div>
+    
+</body>
+</html>
